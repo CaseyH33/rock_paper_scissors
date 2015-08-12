@@ -115,5 +115,16 @@
 
             $this->assertEquals("Player 1", $result);
         }
+
+        function test_wrong_input_player1()
+        {
+            $test_RockPaperScissors = new RockPaperScissors;
+            $player1 = "taco";
+            $player2 = "rock";
+
+            $result = $test_RockPaperScissors->play_rockPaperScissors($player1, $player2);
+
+            $this->assertEquals("Please input either 'Rock', 'Paper', or 'Scissors'", $result);
+        }
     }
 ?>

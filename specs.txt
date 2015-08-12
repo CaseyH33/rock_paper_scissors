@@ -57,3 +57,9 @@
     Behavior: Will ignore capitalized letters, and return player 1
     Input: player1: "Paper", player2: "rOCk"
     Output: "Player 1"
+
+11. test_wrong_input_player1
+
+    Behavior: Will return error message if player1 inputs something besides rock, paper, or scissors
+    Input: player1: "taco", player2: "rock"
+    Output: "Please input either 'Rock', 'Paper', or 'Scissors'"
