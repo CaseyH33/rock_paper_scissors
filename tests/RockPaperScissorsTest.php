@@ -6,7 +6,7 @@
     {
 
         function test_rock_scissors()
-        {
+        {   
             $test_RockPaperScissors = new RockPaperScissors;
             $player1 = "rock";
             $player2 = "scissors";
@@ -134,7 +134,7 @@
             $player2 = "burrito";
 
             $result = $test_RockPaperScissors->play_rockPaperScissors($player1, $player2);
-            
+
             $this->assertEquals("Please input either 'Rock', 'Paper', or 'Scissors'", $result);
         }
     }
