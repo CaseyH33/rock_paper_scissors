@@ -63,3 +63,9 @@
     Behavior: Will return error message if player1 inputs something besides rock, paper, or scissors
     Input: player1: "taco", player2: "rock"
     Output: "Please input either 'Rock', 'Paper', or 'Scissors'"
+
+12. test_wrong_input_player2
+
+    Behavior: Will return error message if player2 inputs something besides rock, paper, or scissors
+    Input: player1: "rock", player2: "burrito"
+    Output: "Please input either 'Rock', 'Paper', or 'Scissors'"
