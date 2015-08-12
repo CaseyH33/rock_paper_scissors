@@ -51,3 +51,9 @@
     Behavior: Will return player 2, because rock beats scissors
     Input: player1: "scissors", player2: "rock"
     Output: "Player 2"
+
+10. test_capitalization
+
+    Behavior: Will ignore capitalized letters, and return player 1
+    Input: player1: "Paper", player2: "rOCk"
+    Output: "Player 1"

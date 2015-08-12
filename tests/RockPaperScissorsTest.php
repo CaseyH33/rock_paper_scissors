@@ -93,5 +93,27 @@
 
             $this->assertEquals("Player 1", $result);
         }
+
+        function test_scissors_rock()
+        {
+            $test_RockPaperScissors = new RockPaperScissors;
+            $player1 = "scissors";
+            $player2 = "rock";
+
+            $result = $test_RockPaperScissors->play_rockPaperScissors($player1, $player2);
+
+            $this->assertEquals("Player 2", $result);
+        }
+
+        function test_capitalization()
+        {
+            $test_RockPaperScissors = new RockPaperScissors;
+            $player1 = "Paper";
+            $player2 = "rOCk";
+
+            $result = $test_RockPaperScissors->play_rockPaperScissors($player1, $player2);
+
+            $this->assertEquals("Player 1", $result);
+        }
     }
 ?>
