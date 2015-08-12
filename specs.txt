@@ -1,0 +1,53 @@
+1.  test_rock_scissors
+
+    Behavior: Will return player 1, because rock beats scissors
+    Input: player1: "rock", player2: "scissors"
+    Output: "Player 1"
+
+2.  test_rock_paper
+
+    Behavior: Will return player 2, because paper beats rock
+    Input: player1: "rock", player2: "paper"
+    Output: "Player 2"
+
+3.  test_rock_rock
+
+    Behavior: Will return draw, because rock ties rock
+    Input: player1: "rock", player2: "rock"
+    Output: "Draw"
+
+4.  test_paper_scissors
+
+    Behavior: Will return player 2, because scissors beats rock
+    Input: player1: "paper", player2: "scissors"
+    Output: "Player 2"
+
+5.  test_paper_paper
+
+    Behavior: Will return draw, because paper ties paper
+    Input: player1: "paper", player2: "paper"
+    Output: "Draw"
+
+6.  test_paper_rock
+
+    Behavior: Will return player 1, because paper beats rock
+    Input: player1: "paper", player2: "rock"
+    Output: "Player 1"
+
+7.  test_scissors_scissors
+
+    Behavior: Will return draw, because scissors ties scissors
+    Input: player1: "scissors", player2: "scissors"
+    Output: "Draw"
+
+8.  test_scissors_paper
+
+    Behavior: Will return player 1, because scissors beats paper
+    Input: player1: "scissors", player2: "paper"
+    Output: "Player 1"
+
+9.  test_scissors_rock
+
+    Behavior: Will return player 2, because rock beats scissors
+    Input: player1: "scissors", player2: "rock"
+    Output: "Player 2"
