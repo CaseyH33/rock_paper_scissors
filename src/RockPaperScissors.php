@@ -22,7 +22,11 @@
                     return "Player 2";
                 } elseif($user2 == "paper") {
                     return "Draw";
+                } elseif($user2 == "rock") {
+                    return "Player 1";
                 }
+            } elseif($user1 == "scissors") {
+                return "Draw";
             }
         }
     }
