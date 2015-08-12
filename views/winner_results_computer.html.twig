@@ -6,9 +6,12 @@
     <body>
         <div class="container">
             <h1>The winner is...</h1>
+            {% if results == 'Player 2' %}
+            <h2> Computer </h2>
+            {% else %}
             <h2> {{ results }} </h2>
-
-            <a href="/two_player_mode"> <button type="submit" class="btn-success">Play Again?</button></a>
+            {% endif %}
+            <a href="/single_player_mode"> <button type="submit" class="btn-success">Play Again?</button></a>
             <br>
             <br>
             <a href="/"> <button type="submit" class="btn-success">Homepage</button></a>
