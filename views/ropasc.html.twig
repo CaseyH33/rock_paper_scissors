@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <title>Rock, Paper, Scissors</title>
+    </head>
+    <body>
+        <div class="container">
+            <form action="/winner_results">
+                <div class="form-group">
+                    <h1>Player 1: </h1>
+                    <label class="radio-inline" >
+                      <input type="radio" name="player1" id="inlineRadio1" value="rock" checked> Rock
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="player1" id="inlineRadio2" value="paper"> Paper
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="player1" id="inlineRadio3" value="scissors"> Scissors
+                    </label>
+                </div>
+                <div class="form-group">
+                    <h1>Player 2: </h1>
+                    <label class="radio-inline" data-toggle="buttons-radio" >
+                      <input type="radio" name="player2" id="inlineRadio1" value="rock" checked> Rock
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="player2" id="inlineRadio2" value="paper"> Paper
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="player2" id="inlineRadio3" value="scissors"> Scissors
+                    </label>
+                </div>
+                <button type="submit" class="btn-success">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
